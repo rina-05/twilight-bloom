@@ -135,3 +135,36 @@ header{
     color: var(--bg-color);
     background: var(--text-color);
 }
+/*Home*/
+.home{
+    min-height: 640px;
+    background: var(--container-color);
+}
+.home-img{
+    display: none;
+    
+}
+.home-data{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.home-text h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: var(--poppins-font);
+}
+.home-text h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--font-family-2);
+}
+
