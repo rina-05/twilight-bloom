@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         event.preventDefault();
 
-        //input e,mail and pass
+        //input email and pass
         const email = document.querySelector('.input-field[type="text"]').value;
         const password = document.querySelector('.input-field[type="password"]').value;
 
