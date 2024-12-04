@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(219, 209, 197);
+}
+.products{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 3rem;
+    margin-top: 2rem;
+    
+}
+.products-container .box{
+    padding: 20px;
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+    border-radius: 0.5rem ;
+    position: relative;
+    height: 370px;
+
+}
+.img
+{
+    border-radius: 8px;
+     margin-left: 10px;
+}
+.img22
+{
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.img33
+{
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.img44
+{
+    border-radius: 8px;
+    margin-left: 10px;
+
+}
+.img55
+{
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.img66
+{
+    border-radius: 8px;
+    margin-left: 10px;
+
+}
+.box
+{
+    background-color: rgb(243, 238, 233);
+}
+
+.price{
+    text-align: center;
+}
+.products-container .box .fa-cart-shopping
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(242, 225, 204);
+    font-size: 15px;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+.products-container .box .fa-cart-shopping:hover {
+    background-color: rgb(170, 167, 162);
+    transition: 0.2s all linear;
+}
+.products-container .box .fa-heart
+{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 20px;
+    color:rgb(170, 167, 162); 
+}
+.products-container .box .discount{
+    position: absolute;
+    top: 1rem;
+    left: 1;
+   background-color: rgb(182, 181, 181);
+    color:rgb(60, 60, 60) ;
+}
+
+
+#products h1
+{
+    text-align: center;
+}
+.button {
+border: 2px solid #fff;
+margin-left: 385px;
+padding:  10px 20px;;
+border-radius: 8px;
+background-color:rgb(202, 197, 193); 
+width: 200px;
+font-size: 18px;
+}
+.button:hover
+{
+    background-color: rgb(149, 139, 128);
+    transition: 0.2s all linear;
+}
