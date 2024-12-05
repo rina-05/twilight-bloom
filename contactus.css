@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body,
+input,
+textarea{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color:   rgb(219, 209, 197);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    background-color:    rgb(207, 192, 177);
+    border-radius: 15px;
+    box-shadow: 0 0 20px 1px rgb(40, 40, 40) ;
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.contact-form{
+    background-color:  rgb(207, 192, 177);
+    position: relative;
+
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, rgb(161, 147, 129));
+    position: absolute;
+}
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -20 0px;
+
+}
+.circle.two{
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: -50px;
+    
+}
+form{
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+
+}
+.title {
+    color: #666666;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    margin-left: 50px;
+
+}
+.input-container{
+    position: relative;
+    margin: 1rem 0;
+}
+label{
+    display: none;
+}
+.input{
+    
+    margin-left: 60px;
+    width: auto;
+    outline: none;
+    border: 2px solid #565353;
+    background: none;
+    padding: 0.4rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+
+}
+.button {
+    border: 1px solid #fff;
+    margin-left: 60px;
+    padding:  10px 15px;;
+    border-radius: 8px;
+    background-color:rgb(202, 197, 193); 
+    width: 100px;
+    font-size: 11px;
+    }
+    .button:hover
+    {
+        background-color: rgb(149, 139, 128);
+        transition: 0.2s all linear;
+    }
+     
+    textarea.input{
+        padding: 0.8rem;
+        min-height: 150px;
+        border-radius: 15px;
+        resize: none;
+        overflow-y: auto;
+    }
+
+    .input-container label{
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+    }

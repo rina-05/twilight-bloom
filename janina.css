@@ -1,5 +1,6 @@
 body{
     background-color: rgb(219, 209, 197);
+    
 }
 .products{
     max-width: 968px;
@@ -110,3 +111,6 @@ font-size: 18px;
     background-color: rgb(149, 139, 128);
     transition: 0.2s all linear;
 }
+ 
+
+
