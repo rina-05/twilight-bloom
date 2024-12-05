@@ -154,6 +154,10 @@ textarea.input{
 
 }
 
+
+
+
+
 .input-container span:before,
 .input-container span::after{
     content:"";
@@ -188,3 +192,7 @@ textarea.input{
     width: 50% ;
     opacity: 1;
 }
+
+
+
+
