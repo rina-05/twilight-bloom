@@ -3,10 +3,11 @@ body{
     
 }
 .products{
-    max-width: 968px;
+    max-width: 988px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .products-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
@@ -21,6 +22,10 @@ body{
     position: relative;
     height: 370px;
 
+}
+.products-container .box:hover{
+    background-color: transparent;
+    transition: 0.2s all linear;
 }
 .img
 {
