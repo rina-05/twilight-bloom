@@ -116,6 +116,20 @@ font-size: 18px;
     background-color: rgb(149, 139, 128);
     transition: 0.2s all linear;
 }
- 
+ .goback{
+    border: 1px solid #848484;
+margin-left: 55px;
+padding:  10px 5px;;
+border-radius: 8px;
+background-color:rgb(202, 197, 193); 
+width: 50px;
+font-size: 15px;
+margin-top: 20px;
+ }
+
+ .goback:hover{
+    background-color: rgb(85, 85, 85);
+    transition: 0.2s ;
+ }
 
 
